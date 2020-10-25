@@ -81,15 +81,19 @@ body {
   }
 
   .footer {
-    background-color: #2f5167;
+    background-color: #4bb192;
     color: #fff;
     height: 120px;
     padding: 40px;
+    border-radius: 15px;
+    bottom:0;height:150px
   }
 
   .footer-logo {
     float: left;
     font-size: 32px;
+    /* background-color: #be2323; */
+    border-radius: 15px;
   }
 
   .footer-list {
@@ -98,6 +102,10 @@ body {
 
   .footer-list li {
     padding-bottom: 20px;
+  }
+  .What_we_do img{
+    margin-left: 40px;
+    border-radius: 15px;
   }
 
   /* .footer{
