@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="front_css.css">
+  <link rel="stylesheet" href="contact.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="images/1_quiz logo.jpg" type="image/icon type">
+
+  <script>
+    scrollingElement = (document.scrollingElement || document.body)
+function scrollToBottom () {
+   scrollingElement.scrollTop = scrollingElement.scrollHeight;
+}
+function scrollToTop (id) {
+   scrollingElement.scrollTop = 0;
+}
+// function scrollSmoothToBottom () {
+//    $(scrollingElement).animate({
+//       scrollTop: document.body.scrollHeight
+//    }, 500);
+// }
+  </script>
+
+</head>
+
+<body>
+
+  <div class="header">
+    <!--<h2>Scroll Down</h2>
+  <p>Scroll down to see the sticky effect.</p>-->
+    <img id="header-image">
+    <div class="cpm-logo"></div>
+    <!-- <button onClick="scrollToBottom()">Scroll to Bottom</button>
+<button onClick="scrollSmoothToBottom()">Scroll <b>Smooth</b> to Bottom</button> -->
+  </div>
+
+
+  <div id="navbar">
+    <a class="active" href="index.html">Home</a>
+    <a href="1topics.html">Topics</a>
+    <a href="javascript:void(0)"><button onClick="scrollToBottom()">Contact</button></a>
+    <li style="float: right;"><a href="index1.html"><style></style><i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp About</a></li>
+  </div>
+  <br>
+
+  <div class="What_we_do">
+
+    <img src="images/what we do.png">
+
+  </div>
+  <br>
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="1topics.html"><img id="front1"
+    src="images/4_My Post.jpg"></a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span><a href="1topics.html"><img
+      id="front2" src="images/2_let's do.jpg"></a></span>
+  <div>
+    <br>
+    <!-- <br> -->
+<img id="main_bg1" src="images/main_bg1.png">
+
+  </div>
+  <br>
+  <br>
+
+  <script>
+    window.onscroll = function () { myFunction() };
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+  <!-- <div class="footer">
+    <div class="footer-logo"><img id="logo" src="images/company_logo.png"></div>
+    <div class="footer-list">
+      <ul>
+        <li><a href="https://github.com/nns15899" target="_blank"><img src="images/GitHub_icon.png"></a></li>
+        <li><a href="https://www.linkedin.com/in/nirbhay-narayan-singh-585560183/" target="_blank"><img src="images/linkedin_icon.png"></a></li>
+        <li><a href="https://www.instagram.com/nirbhay_nns/" target="_blank"><img src="images/instagram-icon.jpg"></a></li>
+        
+       
+      </ul>
+    </div>
+  </div> -->
+
+  <!-- Start Contact Me -->
+  <div class="contact-me">
+    <div class="container">
+      <div class="info">
+        <h2>Contact Me</h2>
+        <p class="paragrph">"Current Lovely Professional University student enrolled in four-year computer
+          science and engineering with experience in web development and
+          cloud computing. Seeking to leverage full stack development and cloud
+          computing skills to become a professional in the field."</p>
+        <address class="paragrph1">
+          Grass farm  <br>
+          Meerut cantt <br>
+          UP(INDIA) <br>
+        </address>
+        <p class="paragrph">
+          <strong>Email:</strong>&nbsp&nbsp&nbsp<a href="mailto:nirbhaynarayansingh807@gmail.com "><button><span class="material-icons">
+            email </span></button></a><br>
+          <strong>Phone:</strong>&nbsp&nbsp<a href="tel:8290708303"><button><span class="material-icons">
+            call</span></button></a>
+        </p>
+      </div>
+      <form class="form">
+        <label>Name *</label>
+        <input type="text" name="Name" value="Your Name">
+        <label>Email Adress *</label>
+        <input type="email" name="Email Adress" value="Your Email Adress">
+        <label>Message *</label>
+        <textarea name="Message" rows="10" cols="80">Your Message</textarea>
+        <input type="submit" name="Contact Me" value="Contact Me">
+      </form>
+    </div>
+  </div>
+  <!-- End Contact Me -->
+
+  <!-- Start Fototer -->
+  <div class="footer">
+    <div class="container">
+      <div class="footer-folat">
+        <span class="he">Copyright &copy; 2018 Nirbhay</span>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/nirbhay-narayan-singh-585560183/" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+          </li>
+          <li><a href="https://https://github.com/nns15899"target="_blank" ><i class="fa fa-fw fa-github"></i></a></li>
+          <li><a href="https://twitter.com/Nirbhay0376939"target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+          <li><a href="mailto:nns15899@gmail.com" title="My E-mail" ><i class="fa fa-fw fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-float">
+        <div class="bigThink">
+          <h4 class="he">Big thanks to my friend who always supports me</h4>
+          <a href="http://anandprabhakarofficial.firebaseapp.com">Anand Prabhakar</a>
+         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span><button onClick="scrollToTop()">Scroll to Top</button></span> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- End Fototer -->
+
+</body>
+
+</html>
